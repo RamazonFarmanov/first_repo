@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Shell_App.MainPage">
+
+    <StackLayout Orientation="Vertical" >
+        <Image Source="porsche.jpg"/>
+        <BoxView Color="#2967cc" HeightRequest="50"/>
+        <ScrollView Orientation="Horizontal" HeightRequest="250">
+            <StackLayout Orientation="Horizontal" BackgroundColor="#2967cc">
+                <Button Margin="20"
+                    Text="Модельный ряд"
+                    BackgroundColor="#2967cc"
+                    BorderColor="Black"
+                    CornerRadius="10"
+                    BorderWidth="3"
+                    WidthRequest="180"
+                    Clicked="ToAutomobilesPage"/>
+                <Button Margin="20"
+                    Text="Новости"
+                    BackgroundColor="#2967cc"
+                    BorderColor="Black"
+                    CornerRadius="10"
+                    BorderWidth="3"
+                    WidthRequest="180"/>
+                <Button Margin="20"
+                    Text="Филлиалы"
+                    BackgroundColor="#2967cc"
+                    BorderColor="Black"
+                    CornerRadius="10"
+                    BorderWidth="3"
+                    WidthRequest="180"/>
+            </StackLayout>
+        </ScrollView>
+        <BoxView Color="#2967cc" HeightRequest="10"/>
+        <AbsoluteLayout HeightRequest="100" >
+            <Button BackgroundColor="#2967cc"
+                Text="Обратная связь"
+                CornerRadius="0"
+                AbsoluteLayout.LayoutBounds="0, 0, 0.5, 1" 
+                AbsoluteLayout.LayoutFlags="All"/>
+            <Button BackgroundColor="#2967cc"
+                Text="Авто в наличии"
+                CornerRadius="0"
+                AbsoluteLayout.LayoutBounds="1, 1, 0.5, 1"
+                AbsoluteLayout.LayoutFlags="All"/>
+        </AbsoluteLayout>
+        <BoxView Color="#2967cc" HeightRequest="70"/>
+    </StackLayout>
+</ContentPage>

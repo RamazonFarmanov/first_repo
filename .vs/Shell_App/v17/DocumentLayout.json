@@ -1,0 +1,165 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\My projects\\Shell_App\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DFD2F8E2-28F9-4197-A389-0DEEC477A284}|Shell_App.csproj|c:\\my projects\\shell_app\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFD2F8E2-28F9-4197-A389-0DEEC477A284}|Shell_App.csproj|solutionrelative:mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFD2F8E2-28F9-4197-A389-0DEEC477A284}|Shell_App.csproj|c:\\my projects\\shell_app\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFD2F8E2-28F9-4197-A389-0DEEC477A284}|Shell_App.csproj|solutionrelative:appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFD2F8E2-28F9-4197-A389-0DEEC477A284}|Shell_App.csproj|c:\\my projects\\shell_app\\userinfopage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DFD2F8E2-28F9-4197-A389-0DEEC477A284}|Shell_App.csproj|solutionrelative:userinfopage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFD2F8E2-28F9-4197-A389-0DEEC477A284}|Shell_App.csproj|c:\\my projects\\shell_app\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DFD2F8E2-28F9-4197-A389-0DEEC477A284}|Shell_App.csproj|solutionrelative:mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFD2F8E2-28F9-4197-A389-0DEEC477A284}|Shell_App.csproj|c:\\my projects\\shell_app\\accountmanagementpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFD2F8E2-28F9-4197-A389-0DEEC477A284}|Shell_App.csproj|solutionrelative:accountmanagementpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFD2F8E2-28F9-4197-A389-0DEEC477A284}|Shell_App.csproj|c:\\my projects\\shell_app\\models\\viewmodels\\usermodelview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFD2F8E2-28F9-4197-A389-0DEEC477A284}|Shell_App.csproj|solutionrelative:models\\viewmodels\\usermodelview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFD2F8E2-28F9-4197-A389-0DEEC477A284}|Shell_App.csproj|c:\\my projects\\shell_app\\accountmanagementpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DFD2F8E2-28F9-4197-A389-0DEEC477A284}|Shell_App.csproj|solutionrelative:accountmanagementpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFD2F8E2-28F9-4197-A389-0DEEC477A284}|Shell_App.csproj|c:\\my projects\\shell_app\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFD2F8E2-28F9-4197-A389-0DEEC477A284}|Shell_App.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFD2F8E2-28F9-4197-A389-0DEEC477A284}|Shell_App.csproj|c:\\my projects\\shell_app\\models\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFD2F8E2-28F9-4197-A389-0DEEC477A284}|Shell_App.csproj|solutionrelative:models\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\My projects\\Shell_App\\MainPage.xaml",
+              "RelativeDocumentMoniker": "MainPage.xaml",
+              "ToolTip": "C:\\My projects\\Shell_App\\MainPage.xaml",
+              "RelativeToolTip": "MainPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-08T10:25:45.693Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserInfoPage.xaml",
+              "DocumentMoniker": "C:\\My projects\\Shell_App\\UserInfoPage.xaml",
+              "RelativeDocumentMoniker": "UserInfoPage.xaml",
+              "ToolTip": "C:\\My projects\\Shell_App\\UserInfoPage.xaml",
+              "RelativeToolTip": "UserInfoPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2023-12-27T08:57:46.775Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\My projects\\Shell_App\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "MainPage.xaml.cs",
+              "ToolTip": "C:\\My projects\\Shell_App\\MainPage.xaml.cs",
+              "RelativeToolTip": "MainPage.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-27T08:53:33.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppShell.xaml.cs",
+              "DocumentMoniker": "C:\\My projects\\Shell_App\\AppShell.xaml.cs",
+              "RelativeDocumentMoniker": "AppShell.xaml.cs",
+              "ToolTip": "C:\\My projects\\Shell_App\\AppShell.xaml.cs",
+              "RelativeToolTip": "AppShell.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-27T08:51:17.566Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserModelView.cs",
+              "DocumentMoniker": "C:\\My projects\\Shell_App\\Models\\ViewModels\\UserModelView.cs",
+              "RelativeDocumentMoniker": "Models\\ViewModels\\UserModelView.cs",
+              "ToolTip": "C:\\My projects\\Shell_App\\Models\\ViewModels\\UserModelView.cs",
+              "RelativeToolTip": "Models\\ViewModels\\UserModelView.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAIBJwAcAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-26T06:18:46.119Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AccountManagementPage.xaml.cs",
+              "DocumentMoniker": "C:\\My projects\\Shell_App\\AccountManagementPage.xaml.cs",
+              "RelativeDocumentMoniker": "AccountManagementPage.xaml.cs",
+              "ToolTip": "C:\\My projects\\Shell_App\\AccountManagementPage.xaml.cs",
+              "RelativeToolTip": "AccountManagementPage.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-25T14:36:23.7Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AccountManagementPage.xaml",
+              "DocumentMoniker": "C:\\My projects\\Shell_App\\AccountManagementPage.xaml",
+              "RelativeDocumentMoniker": "AccountManagementPage.xaml",
+              "ToolTip": "C:\\My projects\\Shell_App\\AccountManagementPage.xaml",
+              "RelativeToolTip": "AccountManagementPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2023-12-25T13:41:57.877Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\My projects\\Shell_App\\Models\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Models\\UserRepository.cs",
+              "ToolTip": "C:\\My projects\\Shell_App\\Models\\UserRepository.cs",
+              "RelativeToolTip": "Models\\UserRepository.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAcwBcAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-25T13:20:43.227Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\My projects\\Shell_App\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\My projects\\Shell_App\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-25T13:18:32.263Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

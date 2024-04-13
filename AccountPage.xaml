@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Shell_App.AccountPage"
+             Title="AccountPage">
+    <VerticalStackLayout x:Name="accountPage" Padding="20">
+        <Grid HeightRequest="200" RowSpacing="5">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width=".9*"/>
+                <ColumnDefinition Width=".1*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="0.25*"/>
+                <RowDefinition Height="0.25*"/>
+                <RowDefinition Height="0.25*"/>
+                <RowDefinition Height="0.25*"/>
+            </Grid.RowDefinitions>
+            <Entry x:Name="nameEntry" Placeholder="Name"  Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2"/>
+            <Entry x:Name="passEntry" Placeholder="Password"  Grid.Row="1" Grid.Column="0"/>
+            <CheckBox x:Name="isAdmin" Grid.Row="1" Grid.Column="1"/>
+            <Button Text="Enter" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" Clicked="OnEnterButtonClicked"/>
+            <Button Text="Register" Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2" Clicked="OnRegisterButtonClicked"/>
+        </Grid>
+    </VerticalStackLayout>
+</ContentPage>

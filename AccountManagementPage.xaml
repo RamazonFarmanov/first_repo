@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Shell_App.AccountManagementPage"
+             xmlns:vm="clr-namespace:Shell_App.Models.ViewModels"
+             xmlns:models="clr-namespace:Shell_App.Models"
+             x:DataType="vm:UserModelView"
+             Title="AccountManagementPage">
+    <Grid Margin="20" RowSpacing="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Entry Placeholder="User ID" Text="{Binding CurrentUser.Id}" Grid.Row="0"/>
+        <Entry Placeholder="User Name" Text="{Binding CurrentUser.Name}" Grid.Row="1"/>
+        <Button Text="Add User" Grid.Row="2" Command="{Binding AddUserCommand}"/>
+        <ScrollView Grid.Row="3">
+            <CollectionView x:Name="collectionView" SelectionMode="Single" ItemsLayout="VerticalList" ItemsSource="{Binding Users}">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate x:DataType="{x:Type models:User}">
+                        <Grid HeightRequest="50">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width=".1*"/>
+                                <ColumnDefinition Width=".9*"/>
+                            </Grid.ColumnDefinitions>
+                            <Label Text="{Binding Id}" VerticalOptions="Center" HorizontalOptions="Center" Grid.Column="0"/>
+                            <Label Text="{Binding Name}" VerticalOptions="Center" HorizontalOptions="Center" FontSize="20" Grid.Column="1"/>
+                        </Grid>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </ScrollView>
+    </Grid>
+</ContentPage>

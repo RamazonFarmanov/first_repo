@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="Shell_App.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:Shell_App"
+    Shell.FlyoutBehavior="Flyout"
+    Shell.TabBarIsVisible="False">
+
+    <Shell.FlyoutHeader>
+        <Image Source="animirovanii_logo.png"/>
+    </Shell.FlyoutHeader>
+
+    <FlyoutItem x:Name="fluoutItem"
+                FlyoutDisplayOptions="AsMultipleItems"
+                Route="cars_page">
+        <ShellContent Title="Главная страница"
+                      Icon="main_page_icon.png"
+                      ContentTemplate="{DataTemplate local:MainPage}" 
+                      Route="main_page"/>
+        <ShellContent Title="Авто"
+                      Icon="auto_icon.png"
+                      ContentTemplate="{DataTemplate local:AutomobilesPage}" 
+                      Route="automobiles_page"/>
+        <ShellContent Title="Наши филлиалы"
+                      Icon="location_icon.png"
+                      ContentTemplate="{DataTemplate local:AutomobilesPage}" />
+        <ShellContent Title="Управление аккаунтами"
+                      Icon="account_icon.png"
+                      ContentTemplate="{DataTemplate local:AccountManagementPage}"
+                      Route="account_management_page"/>
+        <ShellContent Title="Учетная запись"
+                      Icon="account_icon.png"
+                      ContentTemplate="{DataTemplate local:AccountPage}" 
+                      Route="account_page"/>
+    </FlyoutItem>
+</Shell>
